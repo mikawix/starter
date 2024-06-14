@@ -12,6 +12,9 @@ export interface HomePageProps {
 export const HomePage = ({ className }: HomePageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
+            <div>
+                <h1 className={styles.top}>Heading 1</h1>
+            </div>
             <div className={styles.title}>I&apos;M A TITLE</div>
             <div className={styles.paragraph}>
                 <div className={styles.text}>
